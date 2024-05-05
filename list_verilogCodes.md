@@ -1,7 +1,7 @@
 
 #### 1. Write structural and dataflow Verilog HDL models for
 <ol>
-<li> [4-bit ripple carry adder](https://github.com/dicdesign/asic_edatools/blob/main/Digital%20IC%20design.md#a-4-bit-ripple-carry-adder) </li>
+<li> 4-bit ripple carry adder </li>
 <li> 4-bit carry Adder – cum Subtractor </li>
 <li> 2-digit BCD adder/subtractor </li>
 <li> 4-bit carry look-ahead adder </li>
