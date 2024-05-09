@@ -8,11 +8,11 @@
 - Modelling of combinational logic<br>
 - Modelling of sequential logic<br>
 - FSM design<br>
-<br>2. FPGA Design Approach<br>
+2. FPGA Design Approach<br>
 - Introduction to FPGA design flow<br>
 - Intel's Altera design tool<br>
 - AMD's Vivado design tool<br>
-<br>3. ASIC Design Approach<br>
+3. ASIC Design Approach<br>
 - Introduction to RTL-to-GDSII design flow<br>
 - ASIC design using open-source PDK<br>
 - ASIC design using open-source EDA tool OpenLane<br>
