@@ -9,3 +9,7 @@
 <li>Modelling of sequential logic</li>
 <li>FSM design</li>
 </ol>
+
+### List of designs and their Verilog codes
+
+[Please click me to see the list](https://github.com/dicdesign/asic_edatools/blob/main/list_verilogCodes.md)
