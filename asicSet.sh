@@ -104,6 +104,7 @@ echo
 echo
 cd
 cd
+sudo apt install libeigen3-dev --assume-yes
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd OpenSTA
 mkdir build
@@ -114,9 +115,28 @@ sudo apt-get install -y swig --assume-yes
 cmake ..
 sudo make
 sudo make install
-cd 
+cd
+cd
 echo
 echo
+echo "************************************************************************************************"
+echo "                                                                                                "
+echo "                                                                                                "
+echo "                                       Iverilog and gtkwave installation                        "
+echo "                           Cloning iverilog and will start installation of iverilog             "
+echo "                                                                                                "
+echo "                                                                                                "
+echo "************************************************************************************************"
+sudo apt install -y autoconf gperf make gcc g++ bison flex
+git clone https://github.com/steveicarus/iverilog.git
+cd iverilog
+chmod 777 autoconf.sh
+./autoconf.sh
+./configure
+make
+sudo make install
+sudo apt-get -y install gtkwave
+cd
 cd
 echo "************************************************************************************************"
 echo "************************************************************************************************"
