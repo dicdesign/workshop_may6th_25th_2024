@@ -18,6 +18,6 @@
 -- ASIC design using open-source EDA tool OpenLane<br>
 
 
-### ASIC EDA Tools Installation related script file.
+### ASIC EDA Tools Installation related script file. \[Tested on Ubuntu 22.04 LTS (Jammy Jellyfish)]
 
 [Run this script in terminal for all ASIC EDA tools](https://github.com/dicdesign/asic_edatools/blob/main/asic_tools_set.sh)
