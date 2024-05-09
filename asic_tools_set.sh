@@ -139,6 +139,23 @@ sudo apt-get -y install gtkwave
 cd
 cd
 echo "************************************************************************************************"
+echo "                                                                                                "
+echo "                                                                                                "
+echo "                                       Klayout installation                        	      "
+echo "                                    							      "
+echo "                                                                                                "
+echo "                                                                                                "
+echo "************************************************************************************************"
+sudo apt-get install libqt5opengl5
+sudo apt-get install libc-bin mailcap gnome-menus desktop-file-utils man-db
+#sudo apt --fix-broken install
+#Download klayout from https://www.klayout.de/build.html
+cd ~/Downloads
+wget https://www.klayout.org/downloads/Ubuntu-22/klayout_0.29.1-1_amd64.deb
+sudo dpkg -i klayout_0.29.1-1_amd64.deb
+cd
+cd
+echo "************************************************************************************************"
 echo "************************************************************************************************"
 echo "************************************************************************************************"
 echo "                                                                                                "
