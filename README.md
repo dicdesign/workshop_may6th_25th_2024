@@ -18,8 +18,7 @@
 -- ASIC design using open-source EDA tool OpenLane<br>
 
 
-# Asic_edatools
-ASIC EDA Tools Installation related script file.
+### ASIC EDA Tools Installation related script file.
 
 [Follow the instructions for the Klayout](https://github.com/dicdesign/asic_edatools/blob/main/klayout.md)
 
