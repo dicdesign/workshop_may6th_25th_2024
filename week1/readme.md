@@ -1,6 +1,6 @@
-# Week-1 : Learning the HDL-Hardware Description Language Verilog HDL.
+## Week-1 : Learning the HDL-Hardware Description Language Verilog HDL.
 
-## Major topics:
+### Major topics:
 <ol>
 <li>Verilog language details</li>
 <li>Differences between simulation and synthesis</li>
