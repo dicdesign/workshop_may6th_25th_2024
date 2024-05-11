@@ -13,7 +13,7 @@
 ### Types of modelling
 
 -- [Switch-level modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/switchLevelModelling)
--- Gate-level modelling
+-- [Gate-level modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/gateLevelModelling)
 -- Dataflow level modelling
 -- Structural modelling 
 
