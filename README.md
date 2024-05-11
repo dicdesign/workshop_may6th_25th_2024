@@ -1,4 +1,4 @@
-# 3-Week summer course on Digital IC Design
+# 3-Week summer workshop on Digital IC Design
 
 ## Course Content
 <b>[Week-1. Introduction to Verilog HDL](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1)</b><br>
