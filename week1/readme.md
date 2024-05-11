@@ -10,6 +10,14 @@
 <li>FSM design</li>
 </ol>
 
+### Types of modelling
+
+-- Switch-level modelling
+-- Gate-level modelling
+-- Dataflow level modelling
+-- Structural modelling 
+
+
 ### List of designs and their Verilog codes
 
 [Please click me to see the list](https://github.com/dicdesign/asic_edatools/blob/main/list_verilogCodes.md)
