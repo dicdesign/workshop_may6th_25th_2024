@@ -1,3 +1,4 @@
+//full adder
 
 module fa(input a,b,c,
           output sum,co);
