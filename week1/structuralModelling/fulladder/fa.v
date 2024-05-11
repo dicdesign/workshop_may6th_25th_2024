@@ -6,5 +6,4 @@ module fa(input a,b,c,
   ha ins2(s1,c,sum,c2);
   orgate ins3(c1,c2,co);
     
-  
 endmodule
