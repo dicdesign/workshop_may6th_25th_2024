@@ -1,7 +1,7 @@
 # 3-Week summer course on Digital IC Design
 
 ## Course Content
-<b>Week-1. Introduction to Verilog HDL</b><br>
+<b>[Week-1. Introduction to Verilog HDL](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1)</b><br>
 -- Verilog language details<br>
 -- Differences between simulation and synthesis<br>
 -- Various modelling styles<br>
