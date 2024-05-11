@@ -12,10 +12,10 @@
 
 ### Types of modelling
 
--- [Switch-level modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/switchLevelModelling)
--- [Gate-level modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/gateLevelModelling)
--- [Dataflow level modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/dataFlowModelling)
--- Structural modelling 
+- [Switch-level modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/switchLevelModelling)
+- [Gate-level modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/gateLevelModelling)
+- [Dataflow level modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/dataFlowModelling)
+- [Structural modelling](https://github.com/dicdesign/workshop_may6th_25th_2024/tree/main/week1/structuralModelling) 
 
 
 ### List of designs and their Verilog codes
