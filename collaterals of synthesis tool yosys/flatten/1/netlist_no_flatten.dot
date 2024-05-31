@@ -1,0 +1,27 @@
+digraph "fa" {
+label="fa";
+rankdir="LR";
+remincross=true;
+n1 [ shape=octagon, label="a", color="black", fontcolor="black" ];
+n2 [ shape=octagon, label="b", color="black", fontcolor="black" ];
+n3 [ shape=diamond, label="c1", color="black", fontcolor="black" ];
+n4 [ shape=diamond, label="c2", color="black", fontcolor="black" ];
+n5 [ shape=octagon, label="cin", color="black", fontcolor="black" ];
+n6 [ shape=octagon, label="co", color="black", fontcolor="black" ];
+n7 [ shape=diamond, label="s1", color="black", fontcolor="black" ];
+n8 [ shape=octagon, label="sum", color="black", fontcolor="black" ];
+c9 [ shape=record, label="{{<p1> a|<p2> b}|ins1\nha|{<p6> co|<p8> sum}}" ];
+c10 [ shape=record, label="{{<p1> a|<p2> b}|ins2\nha|{<p6> co|<p8> sum}}" ];
+c12 [ shape=record, label="{{<p1> a|<p2> b}|ins3\norgate|{<p11> y}}" ];
+n1:e -> c9:p1:w [color="black", label=""];
+n2:e -> c9:p2:w [color="black", label=""];
+c9:p6:e -> n3:w [color="black", label=""];
+n3:e -> c12:p1:w [color="black", label=""];
+c10:p6:e -> n4:w [color="black", label=""];
+n4:e -> c12:p2:w [color="black", label=""];
+n5:e -> c10:p1:w [color="black", label=""];
+c12:p11:e -> n6:w [color="black", label=""];
+c9:p8:e -> n7:w [color="black", label=""];
+n7:e -> c10:p2:w [color="black", label=""];
+c10:p8:e -> n8:w [color="black", label=""];
+}

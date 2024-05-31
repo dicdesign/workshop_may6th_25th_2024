@@ -1,0 +1,11 @@
+read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog -nolatches mux5x1.v
+synth -top mux5x1
+#dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+abc  -liberty sky130_fd_sc_hd__tt_025C_1v80.lib 
+clean
+flatten
+write_verilog -noattr C:\Users\dell\Desktop\verilog_examples\mux5x1\synthmux5x1_netlist.v
+tee -o report_mux5x1.rpt stat -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+!dot -Tpng show.dot -o mux5x1_n1.png
