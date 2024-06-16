@@ -18,7 +18,7 @@ write_json ${DESIGN}.json
 "
 
 # Generate SVG using netlistsvg
-netlistsvg ${DESIGN}.json -o ${DESIGN}.svg
+!netlistsvg ${DESIGN}.json -o ${DESIGN}.svg
 
 # Open SVG with Inkscape
-inkscape ${DESIGN}.svg
+!inkscape ${DESIGN}.svg
