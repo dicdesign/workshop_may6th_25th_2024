@@ -3,7 +3,7 @@ cd OpenLane<br>
 make mount<br>
 
 #### To create the design type the following command in the terminal<br>
-./flow.tcl -design <designName> -init_design_config -add_to_designs -config_file config.tcl<br>
+./flow.tcl -design \<designName> -init_design_config -add_to_designs -config_file config.tcl<br>
 
 #### To run the openlane interactively<br>
 ./flow.tcl -interactive<br>
@@ -16,7 +16,7 @@ make mount<br>
 
 #### Then, you should be able to run the following main commands:<br>
 
-prep -design <designName> -tag <tagName> -overwrite<br>
+prep -design \<designName> -tag \<tagName> -overwrite<br>
 
 run_synthesis<br>
 run_floorplan<br>
@@ -30,7 +30,7 @@ run_lvs<br>
 run_antenna_check<br>
 
 #### The above commands can also be written in a file and passed to flow.tcl:<br>
-./flow.tcl -interactive -file <file><br>
+./flow.tcl -interactive -file \<fileName><br>
 
 #### If the design is too small. you try appending these to your configuration file (config.tcl):<br>
 set ::env(FP_CORE_UTIL) 5<br>
