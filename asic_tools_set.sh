@@ -34,7 +34,9 @@ cd
 cd
 echo
 echo
-sudo apt-get update
+sudo apt-get update --assume-yes
+sudo apt-get upgrade --assume-yes
+sudo apt install -y build-essential python3 python3-venv make git --assume-yes
 sudo apt-get install m4 --assume-yes
 sudo apt-get install tcsh --assume-yes
 sudo apt-get install csh --assume-yes
@@ -43,7 +45,6 @@ sudo apt-get install tcl-dev tk-dev --assume-yes
 sudo apt-get install libcairo2-dev --assume-yes
 sudo apt-get install mesa-common-dev libglu1-mesa-dev --assume-yes
 sudo apt-get install libncurses-dev --assume-yes
-##sudo apt install git --assume-yes
 cd 
 echo
 echo
@@ -54,7 +55,7 @@ cd
 git clone https://github.com/RTimothyEdwards/magic.git
 cd magic
 ./configure 
-sudo make
+make
 sudo make install
 cd
 echo
@@ -84,7 +85,8 @@ cd
 cd
 git clone https://github.com/YosysHQ/yosys.git
 cd yosys
-sudo make
+git submodule update --init
+make
 sudo make install
 cd
 cd
@@ -113,7 +115,7 @@ sudo apt install cmake --assume-yes
 sudo apt-get update -y --assume-yes
 sudo apt-get install -y swig --assume-yes
 cmake ..
-sudo make
+make
 sudo make install
 cd
 cd
@@ -127,7 +129,7 @@ echo "                           Cloning iverilog and will start installation of
 echo "                                                                                                "
 echo "                                                                                                "
 echo "************************************************************************************************"
-sudo apt install -y autoconf gperf make gcc g++ bison flex
+sudo apt install -y autoconf gperf make gcc g++ bison flex --assume-yes
 git clone https://github.com/steveicarus/iverilog.git
 cd iverilog
 chmod 777 autoconf.sh
@@ -135,24 +137,9 @@ chmod 777 autoconf.sh
 ./configure
 make
 sudo make install
-sudo apt-get -y install gtkwave
+sudo apt-get -y install gtkwave --assume-yes
 cd
 cd
-echo "************************************************************************************************"
-echo "                                                                                                "
-echo "                                                                                                "
-echo "                                       Klayout installation                        	      "
-echo "                                    							      "
-echo "                                                                                                "
-echo "                                                                                                "
-echo "************************************************************************************************"
-sudo apt-get install libqt5opengl5
-sudo apt-get install libc-bin mailcap gnome-menus desktop-file-utils man-db
-#sudo apt --fix-broken install
-#Download klayout from https://www.klayout.de/build.html
-cd ~/Downloads
-wget https://www.klayout.org/downloads/Ubuntu-22/klayout_0.29.1-1_amd64.deb
-sudo dpkg -i klayout_0.29.1-1_amd64.deb
 cd
 cd
 echo "************************************************************************************************"
