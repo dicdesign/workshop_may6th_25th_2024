@@ -7,7 +7,5 @@ http://yosyshq.net/yosys/documentation.html#
 
 1. http://yosyshq.net/yosys/download.html
 
-2. http://bygone.clairexen.net/yosys/download.html
-
 #### Netlist viewer
-[Netlist viewer](https://github.com/visionvlsi/yosys/blob/main/netlist_viewer.md)
+[Netlist viewer](https://github.com/dicdesign/ieeeMentorshipHyd/blob/main/files/netlist_viewer.md)
