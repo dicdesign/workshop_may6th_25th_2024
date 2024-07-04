@@ -21,3 +21,10 @@
 ### ASIC EDA Tools Installation related script file. \[Tested on Ubuntu 22.04 LTS (Jammy Jellyfish)]
 
 [Run this script in terminal for all ASIC EDA tools](https://github.com/dicdesign/asic_edatools/blob/main/asic_tools_set.sh)
+
+### FPGA - Intel(Altera) vs AMD(formely Xilinx)
+
+[Altera vs Xilinx](https://docs.google.com/presentation/d/1UjuVQYawC5oMuDx1xbk9JFqz_DkDWDaYbZRrK8cdNzs/edit?usp=sharing)
+
+### FPGA Design flow vs ASIC Design flow
+[Diffrences are here](https://docs.google.com/presentation/d/1EzmxAGp5TPo06JAFgg3ooUfq1WtbkcLWAxfCHvhAtz4/edit?usp=sharing)
