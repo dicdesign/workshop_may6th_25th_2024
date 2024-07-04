@@ -22,7 +22,7 @@
 
 [Run this script in terminal for all ASIC EDA tools](https://github.com/dicdesign/asic_edatools/blob/main/asic_tools_set.sh)
 
-### FPGA - Intel(Altera) vs AMD(formely Xilinx)
+### FPGA - Intel(formerly Altera) vs AMD(formerly Xilinx)
 
 [Altera vs Xilinx](https://docs.google.com/presentation/d/1UjuVQYawC5oMuDx1xbk9JFqz_DkDWDaYbZRrK8cdNzs/edit?usp=sharing)
 
